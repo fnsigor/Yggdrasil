@@ -12,6 +12,10 @@ body{
     "header header"
     "main aside"
     "footer footer";
+    width: 100vw;
+    grid-template-columns: 70vw 30vw;
+    grid-template-rows: 8vh auto auto;
+    background-color: rgb(202, 131, 39);
 }
 
 header{
@@ -20,11 +24,12 @@ header{
 }
 main{
     grid-area: main;
-    background-color: rgb(94, 255, 0);
+    border: 1px solid black;
+    background-color: blueviolet;
 }
 aside{
     grid-area: aside;
-    background-color: rgb(132, 0, 255);
+    background-color: chartreuse;
 }
 footer{
     grid-area: footer;
@@ -41,7 +46,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 35px;
-    height: 8vh;
 }
 
 
@@ -117,7 +121,7 @@ main{
     justify-content: space-between;
 }
 
-.card-body{
+#container-solucoes .card-body{
     text-align: center;
 }
 
@@ -125,6 +129,24 @@ main{
 
 
 /*aside*/
-aside{
-    width: 25vw;
+
+aside .subtitulos{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#container-newsletter{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.col-md-4 img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.mb-3{
+    border: 1px solid rgb(0, 255, 64);
 }
