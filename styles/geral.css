@@ -1,0 +1,32 @@
+/*estilização geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+main{
+    grid-area: main;
+    background-color: rgb(94, 255, 0);
+}
+aside{
+    grid-area: aside;
+    background-color: rgb(132, 0, 255);
+}
+footer{
+    grid-area: footer;
+    background-color: rgb(255, 174, 0);
+}
+
