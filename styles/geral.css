@@ -1,8 +1,9 @@
 /*estilização geral*/
 *{
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body{
@@ -28,5 +29,72 @@ aside{
 footer{
     grid-area: footer;
     background-color: rgb(255, 174, 0);
+}
+
+
+
+
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    height: 6vh;
+}
+
+
+#header-ul > li{
+    margin: 0 10px;
+}
+
+#header-ul > li:last-child{
+    display: flex;
+    align-items: center;
+}
+
+#header-input{
+    border-radius: 5px;
+}
+
+#header-ul a, h1 > a {
+    text-decoration: none;
+}
+
+#header-ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+}
+
+
+
+
+
+
+/*main*/
+#section-quem{
+    border: 1px solid black;
+}
+
+
+#section-segmentos{
+    border: 1px solid rgb(0, 15, 231);
+}
+
+.lista-segmentos{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.segmento{
+    border: 1px solid red;
+    width: 9vw;
+    text-align: center;
 }
 
