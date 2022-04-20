@@ -1,3 +1,4 @@
 # Wireframe: 
 
-![yggdrasil](https://user-images.githubusercontent.com/86209425/164134769-efbc8ab6-2e15-4e25-a249-1897c381b803.jpg)
+![Yggdrasil (1)](https://user-images.githubusercontent.com/86209425/164231735-e8250564-f4f1-41d8-b1ad-38deebabf0fb.jpg)
+
