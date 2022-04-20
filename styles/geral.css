@@ -139,24 +139,27 @@ main{
 
 
 /*aside*/
+aside{
+    padding: 5vh 2vw 5px;
+}
 
 aside .subtitulos{
     text-align: center;
-    margin-top: 10px;
-}
-
-#container-newsletter{
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
 }
 
 
-.col-md-4 img{
-    height: 100%;
+.carousel-item > img {
+    height: 20vh;
     object-fit: cover;
+    border-radius: 5px;
+    margin: 2vh 0 3vh;
 }
 
-.mb-3{
-    border: 1px solid rgb(0, 255, 64);
+.carousel-item > h3{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.carousel-item > p {
+    font-size: 18px;
 }
