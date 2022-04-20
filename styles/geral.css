@@ -13,21 +13,18 @@ body{
     "main aside"
     "footer footer";
     grid-template-columns: 75vw auto;
-    grid-template-rows: 10vh auto 15vh;
+    grid-template-rows: 10vh auto auto;
     background-color: rgb(202, 131, 39);
 }
 
 header{
     grid-area: header;
-    background-color: aqua;
 }
 main{
     grid-area: main;
-    background-color: blueviolet;
 }
 aside{
     grid-area: aside;
-    background-color: chartreuse;
 }
 footer{
     grid-area: footer;
@@ -79,25 +76,18 @@ main{
     padding: 5vh 1vw 5vh 2vw;
 }
 
-
 #section-segmentos .subtitulos, #section-solucoes .subtitulos{
     margin-bottom: 20px;
 }
 
-
-
-
-/*main section quem*/
 #section-quem{
     margin-bottom: 35px;
 }
-
 
 /*main section segmentos*/
 #section-segmentos{
     margin-bottom: 35px;
 }
-
 
 .lista-segmentos{
     display: flex;
@@ -124,8 +114,6 @@ main{
 
 }
 
-
-
 #container-solucoes > .card{
     text-align: center;
     width: 16vw;
@@ -138,15 +126,11 @@ main{
 
 
 
+
 /*aside*/
 aside{
-    padding: 5vh 2vw 5px;
+    padding: 5vh 2vw 0;
 }
-
-aside .subtitulos{
-    text-align: center;
-}
-
 
 .carousel-item > img {
     height: 20vh;
@@ -162,4 +146,46 @@ aside .subtitulos{
 
 .carousel-item > p {
     font-size: 18px;
+}
+
+#carouselExampleControlsNoTouching{
+    height: 50rem;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 34% 33% 33%;
+    grid-template-areas: 
+    "article1 article2 article3"
+    "address address address";
+}
+
+footer > article:first-child {
+    grid-area: article1;
+    background-color: aquamarine;
+}
+
+footer > article:nth-child(2){
+    background-color: red;
+    grid-area: article2;
+}
+
+footer > article:last-child {
+    grid-area: article3;
+    background-color: aquamarine;
+}
+
+footer > address{
+    grid-area: address;
+    background-color: blueviolet;
+}
+
+.footer-list{
+    padding: 0;
 }
