@@ -23,7 +23,6 @@ header{
 }
 main{
     grid-area: main;
-    border: 1px solid black;
     background-color: blueviolet;
 }
 aside{
@@ -70,7 +69,6 @@ header{
     margin: 0;
     display: flex;
     align-items: center;
-    border: 1px solid;
 }
 
 
@@ -123,24 +121,17 @@ main{
 #container-solucoes{
     display: flex;
     justify-content: space-between;
+
 }
 
-#container-solucoes .card-body{
+
+
+#container-solucoes > .card{
     text-align: center;
+    width: 16vw;
+    height: 23.5rem;
+    font-size: 15px;
 }
-
-.bloco-solucao{
-    border: 1px dashed red;
-    width: 15vw;
-    height: 40vh;
-}
-
-.bloco-solucao > div {
-    width: 100% !important;
-    height: 100%;
-}
-
-
 
 
 
