@@ -50,6 +50,7 @@ footer{
 .subtitulos{
     color: var(--azul-escuro);
     font-size: 1.7rem;
+    font-weight: 500;
 }
 
 
@@ -71,6 +72,7 @@ header{
 #header-ul > li{
     margin: 0 10px;
     font-size: 1.1rem;
+    font-weight: 500;
 }
 
 #header-ul > li:last-child{
@@ -197,6 +199,17 @@ main{
     object-fit: cover;
 }
 
+#container-solucoes .btn-primary{
+    background-color: var(--cor-link);
+}
+
+#container-solucoes .btn-primary:hover{
+    background-color: var(--azul-escuro);
+    font-weight: bold;
+    letter-spacing: .1rem;
+    word-spacing: .1rem;
+}
+
 
 
 
@@ -289,10 +302,18 @@ footer > address{
 
 .subtitulo-footer{
     color: var(--amarelo);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .article-footer a, .article-footer p, address, address > a {
     color: var(--bg-cinza);
     text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: var(--amarelo);
+}
+
+address a:hover {
+    color: var(--amarelo);
 }
