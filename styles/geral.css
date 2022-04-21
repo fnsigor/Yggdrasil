@@ -1,4 +1,12 @@
 /*estilização geral*/
+:root{
+    --cor-link: #0d6efd;
+    --bg-cinza: #FBF5F3;
+    --violeta: #B4ADEA;
+    --azul-escuro: #00487C;
+    --amarelo: #FDE52A;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -14,22 +22,36 @@ body{
     "main aside"
     "footer footer";
     grid-template-columns: 75vw auto;
-    grid-template-rows: 10vh auto auto;
+    grid-template-rows: 12vh auto auto;
     background-color: rgb(202, 131, 39);
 }
 
 header{
     grid-area: header;
+    background-color: var(--bg-cinza);
+    background-color: var(--azul-escuro);
 }
 main{
     grid-area: main;
+    background-color: var(--bg-cinza);
 }
 aside{
     grid-area: aside;
+    background-color: var(--bg-cinza);
 }
 footer{
     grid-area: footer;
+    background-color: var(--bg-cinza);
+    background-color: var(--azul-escuro);
 }
+
+.subtitulos{
+    color: var(--azul-escuro);
+}
+
+
+
+
 
 
 
@@ -57,10 +79,6 @@ header{
     border-radius: 5px;
 }
 
-/* #header-ul a, h1 > a {
-    text-decoration: none;
-} */
-
 #header-ul{
     padding: 0;
     margin: 0;
@@ -68,12 +86,20 @@ header{
     align-items: center;
 }
 
+header a{
+    color: var(--amarelo);
+    text-decoration: none;
+}
+
+
+
+
 
 
 
 /*main*/
 main{
-    padding: 5vh 1vw 5vh 2vw;
+    padding: 5vh 1vw 0 2vw;
 }
 
 #section-segmentos .subtitulos, #section-solucoes .subtitulos{
@@ -97,7 +123,7 @@ main{
 
 .segmento{
     border-radius: 5px;
-    border: 1px solid red;
+    border: 1px solid var(--azul-escuro);
     width: 150px;
     height: 3rem;
 
@@ -127,16 +153,18 @@ main{
 
 
 
+
 /*aside*/
 aside{
-    padding: 5vh 2vw 0;
+    padding: 7vh 2vw 0;
+    margin-bottom: 2rem;
 }
 
 .carousel-item > img {
     height: 20vh;
     object-fit: cover;
     border-radius: 5px;
-    margin: 2vh 0 3vh;
+    margin: 0 0 3vh;
 }
 
 .carousel-item > h3{
@@ -146,11 +174,20 @@ aside{
 
 .carousel-item > p {
     font-size: 18px;
+    font-size: 1.1rem;
+    padding: 0 .8rem;
 }
 
 #carouselExampleControlsNoTouching{
-    height: 50rem;
+    height: 51rem;
+    background-color: #00487C;
+    color: var(--bg-cinza);
+    border-radius: 5px;
 }
+
+
+
+
 
 
 
@@ -164,7 +201,7 @@ footer{
     grid-template-areas: 
     "article1 article2 article3"
     "address address address";
-    padding-top: 10vh;
+    padding-top: 2rem;
     padding-left: 2vw;
     text-align: center;
 }
@@ -187,10 +224,20 @@ footer > address{
     margin: 0;
     text-align: end;
     padding-right: 2vw;
-    padding-top: 5vh;
+    
     padding-bottom: 1vh;
 }
 
 .footer-list{
     padding: 0;
+}
+
+.subtitulo-footer{
+    color: var(--amarelo);
+    font-weight: bold;
+}
+
+.article-footer a, .article-footer p, address, address > a {
+    color: var(--bg-cinza);
+    text-decoration: none;
 }
