@@ -49,6 +49,7 @@ footer{
 
 .subtitulos{
     color: var(--azul-escuro);
+    font-size: 1.7rem;
 }
 
 
@@ -67,10 +68,9 @@ header{
     padding: 0 35px;
 }
 
-
 #header-ul > li{
     margin: 0 10px;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 #header-ul > li:last-child{
@@ -124,8 +124,9 @@ header a:hover{
 
 /*main*/
 main{
-    padding: 5vh 1vw 0 2vw;
+    padding: 5vh 1vw 5vh 2vw;
 }
+
 
 #section-segmentos .subtitulos, #section-solucoes .subtitulos{
     margin-bottom: 20px;
@@ -133,11 +134,24 @@ main{
 
 #section-quem{
     margin-bottom: 35px;
+    font-size: 1rem;
 }
 
-/*main section segmentos*/
 #section-segmentos{
     margin-bottom: 35px;
+}
+
+#section-segmentos .btn{
+    border: 1px solid var(--azul-escuro);
+    display: flex;
+    align-items: center;
+}
+
+#section-segmentos .btn:hover{
+    background-color: var(--cor-link);
+    color: var(--bg-cinza);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 2);
+    cursor: default;
 }
 
 .lista-segmentos{
@@ -148,20 +162,14 @@ main{
 
 .segmento{
     border-radius: 5px;
-    border: 1px solid var(--azul-escuro);
-    width: 150px;
+    width: 10rem;
     height: 3rem;
 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.segmento:hover{
-    background-color: var(--cor-link);
-    color: var(--bg-cinza);
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 2);
+    font-size: 1rem;
 }
 
 
@@ -175,9 +183,22 @@ main{
 #container-solucoes > .card{
     text-align: center;
     width: 16vw;
-    height: 23.5rem;
-    font-size: 15px;
+    height: 25rem;
+    font-size: .9rem;
 }
+
+#container-solucoes .solucao-conteudo{
+    width: auto;
+    height: 85%;
+    
+}
+#container-solucoes .card-img-top{
+    height: 35%;
+    object-fit: cover;
+}
+
+
+
 
 
 
@@ -188,8 +209,10 @@ main{
 
 /*aside*/
 aside{
-    padding: 7vh 2vw 0;
-    margin-bottom: 2rem;
+    padding: 5vh 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-item > img {
@@ -202,18 +225,19 @@ aside{
 .carousel-item > h3{
     text-align: center;
     margin-bottom: 3vh;
+    font-size: 1.5rem;
 }
 
 .carousel-item > p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 0 .8rem;
 }
 
 #carouselExampleControlsNoTouching{
-    height: 51rem;
     background-color: var(--azul-escuro);
     color: var(--bg-cinza);
     border-radius: 5px;
+    height: 51.5rem;
 }
 
 
