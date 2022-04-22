@@ -207,7 +207,7 @@ main{
 }
 
 /*cards ocultos*/
-#card-atena, #card-excalibur, #card-fujin, #card-mihawk{
+#card-atena, #card-excalibur, #card-fujin, #card-sauron{
     height: 25rem;
     margin: 0 !important;
     text-align: start;
@@ -296,7 +296,6 @@ footer{
     "address address address";
     padding-top: 2rem;
     padding-left: 2vw;
-    text-align: center;
 }
 
 footer > article:first-child {
