@@ -23,9 +23,34 @@ document.querySelectorAll(".btn-primary").forEach(button =>{
     }
 })
 
+
+document.querySelectorAll('.button-back').forEach(backButton => {
+    backButton.addEventListener('click', ()=>{
+        hideOcultCard()
+        showCards()
+    })
+})
+
+
+
+
 function hideCards () {
     const anotherCards = document.querySelectorAll('#bloco-excalibur, #bloco-fujin, #bloco-mihawk, #bloco-atena')
     anotherCards.forEach(card =>{
         card.setAttribute('hidden', '')
+    })
+}
+
+function showCards () {
+    const anotherCards = document.querySelectorAll('#bloco-excalibur, #bloco-fujin, #bloco-mihawk, #bloco-atena')
+    anotherCards.forEach(card =>{
+        card.removeAttribute('hidden')
+    })
+}
+
+function hideOcultCard () {
+    const ocults = document.querySelectorAll('#card-excalibur, #card-fujin, #card-mihawk, #card-atena')
+    ocults.forEach(ocultCard =>{
+        ocultCard.setAttribute('hidden', '')
     })
 }

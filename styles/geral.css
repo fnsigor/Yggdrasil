@@ -178,7 +178,6 @@ main{
     justify-content: space-between; 
 }
 
-/*mudei de .card pra .bloco pra nao alterar o card*/
 #container-solucoes > .bloco{
     text-align: center;
     width: 16vw;
@@ -207,12 +206,13 @@ main{
     word-spacing: .1rem;
 }
 
-
-
+/*cards ocultos*/
 #card-atena, #card-excalibur, #card-fujin, #card-mihawk{
-    flex: 1;
+    height: 25rem;
     margin: 0 !important;
     text-align: start;
+    position: relative;
+    font-size: 1rem;
 }
 
 .mb-3 img{
@@ -224,6 +224,17 @@ main{
 .mb-3  .row, .col-md-4, .col-md-8{
     height: 100%;
 }
+
+.button-back{
+    position: absolute;
+    background: none;
+    border: none;
+    height: 3rem;
+    right: 1rem;
+    top: 0.5rem;
+}
+
+
 
 
 
