@@ -58,9 +58,6 @@ footer{
 
 
 
-
-
-
 /*header*/
 header{
     display: flex;
@@ -178,11 +175,11 @@ main{
 /*main section solucoes*/
 #container-solucoes{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-between; 
 }
 
-#container-solucoes > .card{
+/*mudei de .card pra .bloco pra nao alterar o card*/
+#container-solucoes > .bloco{
     text-align: center;
     width: 16vw;
     height: 25rem;
@@ -210,6 +207,23 @@ main{
     word-spacing: .1rem;
 }
 
+
+
+#card-atena, #card-excalibur, #card-fujin, #card-mihawk{
+    flex: 1;
+    margin: 0 !important;
+    text-align: start;
+}
+
+.mb-3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mb-3  .row, .col-md-4, .col-md-8{
+    height: 100%;
+}
 
 
 
@@ -250,7 +264,7 @@ aside{
     background-color: var(--azul-escuro);
     color: var(--bg-cinza);
     border-radius: 5px;
-    height: 51.5rem;
+    height: 100%;
 }
 
 
