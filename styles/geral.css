@@ -64,6 +64,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 35px;
+    position: relative;
 }
 
 #header-ul > li{
@@ -108,14 +109,20 @@ header a:hover{
 }
 
 #header-ul > li:hover{
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+    text-shadow: 2px 2px 5px --amarelo;
 }
 
 #header-ul img:hover{
     cursor: pointer;
 }
 
-
+header > img {
+    position: absolute;
+    height: 85%;
+    left: 14.5rem;
+    object-fit: cover;
+    
+}
 
 
 
@@ -200,10 +207,9 @@ main{
 }
 
 #container-solucoes .btn-primary:hover{
-    background-color: var(--azul-escuro);
-    font-weight: bold;
-    letter-spacing: .1rem;
-    word-spacing: .1rem;
+    background-color: #0d6dfddc;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 2);
+   
 }
 
 /*cards ocultos*/
@@ -300,15 +306,17 @@ footer{
 
 footer > article:first-child {
     grid-area: article1;
-    text-align: left;
+    
 }
 
 footer > article:nth-child(2){
     grid-area: article2;
+  
 }
 
-footer > article:last-child {
+footer > article:nth-child(3) {
     grid-area: article3;
+   
 }
 
 footer > address{
@@ -316,7 +324,7 @@ footer > address{
     margin: 0;
     text-align: end;
     padding-right: 2vw;
-    
+    font-size: .8rem;
     padding-bottom: 1vh;
 }
 
@@ -336,6 +344,11 @@ footer > address{
 
 .footer-list a:hover {
     color: var(--amarelo);
+}
+
+.article-footer div:first-child{
+    margin: 0 auto;
+    width: max-content;
 }
 
 address a:hover {
