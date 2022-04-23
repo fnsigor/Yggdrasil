@@ -149,14 +149,18 @@ main > article:hover{
 
 
 /*capa*/
-.article-capa{
-    background-color: var(--azul-escuro);
+.article-capa, .btn{
+    background-color: var(--azul-escuro) !important;
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     border-radius: 5px;
+}
+
+.btn:hover{
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 2);
 }
 
 .article-capa > figure > img{
@@ -172,8 +176,9 @@ main > article:hover{
 .article-content{
     width: 100%;
     height: 100%;
-    border: 1px solid --azul-escuro !important;
+    background-color: #dbd9d8;
     border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 2);
 }
 
 
@@ -181,8 +186,18 @@ main > article:hover{
     width: 100%;
     height: 35%;
     object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 5px 5px 0 0;
 }
 
+.article-content p{
+    padding: 0 .5rem;
+}
+
+.article-content li{
+    list-style: upper-roman;
+    margin-bottom: 0.8rem;
+}
 
 
 
@@ -212,12 +227,10 @@ footer > article:first-child {
 
 footer > article:nth-child(2){
     grid-area: article2;
-  
 }
 
 footer > article:nth-child(3) {
     grid-area: article3;
-   
 }
 
 footer > address{
