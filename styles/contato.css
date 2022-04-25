@@ -159,6 +159,15 @@ main{
     padding: 0;
     margin: 0;
     text-align: center;
+    
+    border-radius: 5px;
+}
+
+#div-form h4{
+    color: var(--bg-cinza);
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 #text{
@@ -171,18 +180,12 @@ main{
 
 
 .to-form-button{
-    width: 10rem;
+    width: 15rem;
+    border: none;
+    margin-bottom: .8rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 #div-sup{
@@ -263,9 +266,6 @@ main{
     width: 100%;
     border-radius: 5px;
 }
-
-
-
 
 
 
