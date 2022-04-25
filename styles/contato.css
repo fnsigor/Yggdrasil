@@ -155,7 +155,6 @@ main{
    align-items: center;
 }
 #div-form ul{
-    border: 1px solid red;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -168,6 +167,7 @@ main{
     font-weight: 500;
     font-size: 3rem;
     margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(0 , 0, 0, .5);
 }
 
 #text{
@@ -176,15 +176,23 @@ main{
     color: var(--bg-cinza);
     font-weight: 500;
     text-shadow: 2px 2px 5px rgba(0 , 0, 0, .5);
+    
 }
 
 
 .to-form-button{
     width: 15rem;
     border: none;
-    margin-bottom: .8rem;
-    border-radius: 5px;
-    font-size: 1.5rem;
+    margin-bottom: .8rem !important;
+    border-radius: 5px !important;
+    font-size: 1.5rem !important;
+    padding: 0 .5rem !important;
+    background-color: var(--cor-link) !important; 
+    color: var(--bg-cinza) !important;
+}
+
+.to-form-button:hover{
+    background-color: #3a89ff !important;
 }
 
 
