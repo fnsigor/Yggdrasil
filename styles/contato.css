@@ -1,0 +1,209 @@
+/*estilização geral*/
+:root{
+    --cor-link: #0d6efd;
+    --bg-cinza: #FBF5F3;
+    --violeta: #B4ADEA;
+    --azul-escuro: #00487C;
+    --amarelo: #FDE52A;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(202, 131, 39) !important;
+}
+
+header{
+    height: 12vh;
+    background-color: var(--bg-cinza);
+    background-color: var(--azul-escuro);
+}
+main{
+    flex: 1;
+    background-color: var(--bg-cinza);
+}
+
+footer{
+    background-color: var(--bg-cinza);
+    background-color: var(--azul-escuro);
+}
+
+.subtitulos{
+    color: var(--azul-escuro);
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    position: relative;
+}
+
+#header-ul > li{
+    margin: 0 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#header-ul > li:last-child{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+#header-input{
+    border: none;
+    border-radius: 5px;
+    outline-color: var(--cor-link);
+    margin-right: 0.3rem;
+    width: 15rem;
+    padding-left: .3rem;
+}
+
+#header-input:focus{
+    background-color: #d6eeff;
+}
+
+#header-ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    color: var(--amarelo);
+    text-decoration: none;
+}
+
+header h1 a:hover{
+    color: var(--amarelo);
+}
+
+header a:hover{
+    color: var(--bg-cinza);
+}
+
+#header-ul > li:hover{
+    text-shadow: 2px 2px 5px --amarelo;
+}
+
+#header-ul img:hover{
+    cursor: pointer;
+}
+
+header > img {
+    position: absolute;
+    height: 85%;
+    left: 14.5rem;
+    object-fit: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+/*main*/
+main{
+    padding: 5vh 1vw 5vh 2vw;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 34% 33% 33%;
+    grid-template-areas: 
+    "article1 article2 article3"
+    "address address address";
+    padding-top: 2rem;
+    padding-left: 2vw;
+}
+
+footer > article:first-child {
+    grid-area: article1;
+    
+}
+
+footer > article:nth-child(2){
+    grid-area: article2;
+}
+
+footer > article:nth-child(3) {
+    grid-area: article3;
+}
+
+footer > address{
+    grid-area: address;
+    margin: 0;
+    text-align: end;
+    padding-right: 2vw;
+    font-size: .8rem;
+    padding-bottom: 1vh;
+}
+
+.footer-list{
+    padding: 0;
+}
+
+.subtitulo-footer{
+    color: var(--amarelo);
+    font-weight: 500;
+}
+
+.article-footer a, .article-footer p, address, address > a {
+    color: var(--bg-cinza);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: var(--amarelo);
+}
+
+.article-footer div:first-child{
+    margin: 0 auto;
+    width: max-content;
+}
+
+address a:hover {
+    color: var(--amarelo);
+}
