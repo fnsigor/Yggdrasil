@@ -133,9 +133,55 @@ header > img {
 /*main*/
 main{
     padding: 5vh 1vw 5vh 2vw;
-    display: flex;
+    
 }
 
+#form{
+    background-color: var(--cor-link);
+    margin: 0 auto;
+    width: 28rem;
+    height:48rem;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    color: var(--bg-cinza);
+}
+
+#form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#form input, #form select, #form textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding-left: .3rem;
+    border: none;
+}
+
+#form textarea{
+    resize: none;
+    height: 10rem;
+}
+
+#form h3{
+    text-align: center;
+    margin: .5rem 0;
+}
+
+#form button{
+    border: 1px solid var(--azul-escuro);
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    padding: .1rem .5rem;
+}
+
+
+#map{
+    width: 100%;
+    border-radius: 5px;
+}
 
 
 
