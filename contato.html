@@ -44,85 +44,85 @@
                     <span id="text">Como podemos <br> te ajudar hoje?</span>
                 </div>
                 <div id="div-form">
-                    <ul>
+                    <ul id="lista-botoes">
                         <h4>Assuntos</h4>
-                        <li><button class="to-form-button btn" value="comercial">Comercial</button></li>
-                        <li><button class="to-form-button btn" value="suporte">Suporte</button></li>
-                        <li><button class="to-form-button btn" value="trabalhe">Trabalhe conosco</button></li>
-                        <li><button class="to-form-button btn" >Ouvidoria</button></li>
+                        <li><button class="to-form-button btn">Comercial</button></li>
+                        <li><button class="to-form-button btn">Suporte</button></li>
+                        <li><button class="to-form-button btn">Trabalhe conosco</button></li>
+                        <li><button class="to-form-button btn">Ouvidoria</button></li>
                         <li><button class="to-form-button btn">Outro</button></li>
                     </ul>
                     <form id="form" hidden>
-                    <h3>Comercial</h3>
-                    <label for="inputNome"> Nome:
-                        <input type="text" required minlength="3" id="inputNome">
-                    </label>
-                    <label for="inputEmail"> Email:
-                        <input type="email" required id="inputEmail">
-                    </label>
-                    <label for="inputFone"> Telefone:
-                        <input type="text" minlength="10" maxlength="11" required id="inputFone"></label> 
-                    </label>
-                    <label for="inputEmpresa"> Empresa:
-                        <input type="text" required minlength="3" id="inputEmpresa">
-                    </label>
-                    <label for="selectCargo"> Cargo:
-                        <select name="selectCargo" id="selectCargo" required>
-                            <option value="" selected disabled></option>
-                            <option value="">CEO/Diretor/Gerente</option>
-                            <option value="">Proprietário/Sócio</option>
-                            <option value="">Analista/Técnico/Assistente</option>
-                            <option value="">Outro</option>
-                        </select>
-                    </label>
-                    <label for="estados"> Estado:
-                        <select name="estados" id="estados" required>
-                            <option value="" selected disabled></option>
-                            <optgroup label="Norte">
-                                <option value="">Manaus</option>
-                                <option value="">Roraima</option>
-                                <option value="">Amapá</option>
-                                <option value="">Pará</option>
-                                <option value="">Tocantins</option>
-                                <option value="">Rondônia</option>
-                                <option value="">Acre</option>
-                            </optgroup>
-                            <optgroup label="Nordeste">
-                                <option value="">Maranhão</option>
-                                <option value="">Ceará</option>
-                                <option value="">Rio Grande do Norte</option>
-                                <option value="">Pernambuco</option>
-                                <option value="">Paraíba</option>
-                                <option value="">Sergipe</option>
-                                <option value="">Alagoas</option>
-                                <option value="">Bahia</option>
-                                <option value="">Piauí</option>
-                            </optgroup>
-                            <optgroup label="Centro-Oeste">
-                                <option value="">Mato Grosso</option>
-                                <option value="">Mato Grosso do Sul</option>
-                                <option value="">Goiás</option>
-                            </optgroup>
-                            <optgroup label="Sudeste">
-                                <option value="">São Paulo</option>
-                                <option value="">Rio de Janeiro</option>
-                                <option value="">Espírito Santo</option>
-                                <option value="">Minas Gerais</option>
-                            </optgroup>
-                            <optgroup label="Sul">
-                                <option value="">Paraná</option>
-                                <option value="">Rio Grande do sul</option>
-                                <option value="">Santa Catarina</option>
-                            </optgroup>
-                        </select>
-                    </label>
-                    <label for="inputCidade"> Cidade:
-                        <input type="text" required minlength="3" id="inputCidade">
-                    </label>
-                    <label for="textareaMsg"> Mensagem:
-                        <textarea name="textareaMsg" id="textareaMsg" cols="30" rows="10" placeholder="sua mensagem" required minlength="5"></textarea>
-                    </label>
-                    <button>Solicitar contato</button>
+                    
+                        <label for="inputNome"> Nome:
+                            <input type="text" required minlength="3" id="inputNome">
+                        </label>
+                        <label for="inputEmail"> Email:
+                            <input type="email" required id="inputEmail">
+                        </label>
+                        <label for="inputFone"> Telefone:
+                            <input type="text" minlength="10" maxlength="11" required id="inputFone"></label> 
+                        </label>
+                        <label for="inputEmpresa"> Empresa:
+                            <input type="text" required minlength="3" id="inputEmpresa">
+                        </label>
+                        <label for="selectCargo"> Cargo:
+                            <select name="selectCargo" id="selectCargo" required>
+                                <option value="" selected disabled></option>
+                                <option value="">CEO/Diretor/Gerente</option>
+                                <option value="">Proprietário/Sócio</option>
+                                <option value="">Analista/Técnico/Assistente</option>
+                                <option value="">Outro</option>
+                            </select>
+                        </label>
+                        <label for="estados"> Estado:
+                            <select name="estados" id="estados" required>
+                                <option value="" selected disabled></option>
+                                <optgroup label="Norte">
+                                    <option value="">Manaus</option>
+                                    <option value="">Roraima</option>
+                                    <option value="">Amapá</option>
+                                    <option value="">Pará</option>
+                                    <option value="">Tocantins</option>
+                                    <option value="">Rondônia</option>
+                                    <option value="">Acre</option>
+                                </optgroup>
+                                <optgroup label="Nordeste">
+                                    <option value="">Maranhão</option>
+                                    <option value="">Ceará</option>
+                                    <option value="">Rio Grande do Norte</option>
+                                    <option value="">Pernambuco</option>
+                                    <option value="">Paraíba</option>
+                                    <option value="">Sergipe</option>
+                                    <option value="">Alagoas</option>
+                                    <option value="">Bahia</option>
+                                    <option value="">Piauí</option>
+                                </optgroup>
+                                <optgroup label="Centro-Oeste">
+                                    <option value="">Mato Grosso</option>
+                                    <option value="">Mato Grosso do Sul</option>
+                                    <option value="">Goiás</option>
+                                </optgroup>
+                                <optgroup label="Sudeste">
+                                    <option value="">São Paulo</option>
+                                    <option value="">Rio de Janeiro</option>
+                                    <option value="">Espírito Santo</option>
+                                    <option value="">Minas Gerais</option>
+                                </optgroup>
+                                <optgroup label="Sul">
+                                    <option value="">Paraná</option>
+                                    <option value="">Rio Grande do sul</option>
+                                    <option value="">Santa Catarina</option>
+                                </optgroup>
+                            </select>
+                        </label>
+                        <label for="inputCidade"> Cidade:
+                            <input type="text" required minlength="3" id="inputCidade">
+                        </label>
+                        <label for="textareaMsg"> Mensagem:
+                            <textarea name="textareaMsg" id="textareaMsg" cols="30" rows="10" placeholder="sua mensagem" required minlength="5"></textarea>
+                        </label>
+                        <button>Solicitar contato</button>
                     </form>
                 </div>
             </div>
@@ -163,6 +163,6 @@
         </address>
     </footer>
     <!--fim footer-->
-
+    <script src="scripts/contato.js"></script>
 </body>
 </html>
