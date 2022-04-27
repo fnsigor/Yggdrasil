@@ -160,30 +160,26 @@ main{
     
 }
 
-#div-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#div-form ul{
-    padding: 0;
-    margin: 0;
+#div-texts{
     text-align: center;
-    
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#div-form h4{
+#div-texts p{
+    background-color: var(--cor-link);
+    border-radius: 10px;
+    margin: 0 8rem;
+    padding: .5rem .5rem;
+    margin-top: .5rem;
+    font-size: 1.5rem;
     color: var(--bg-cinza);
-    font-weight: 500;
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    text-shadow: 2px 2px 5px rgba(0 , 0, 0, .5);
+    font-weight: 400;
 }
+
 
 #text{
-    z-index: 1;
     font-size: 3rem;
     color: var(--bg-cinza);
     font-weight: 500;
@@ -211,8 +207,7 @@ main{
 #div-sup{
     height: 50rem;
     position: relative;
-    border: 1px solid rgb(1, 211, 29);
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 #bg-image{
@@ -227,6 +222,12 @@ main{
     height: 100%;
 }
 
+#div-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #form{
     background-color: var(--cor-link);
     margin: 0 auto;
@@ -237,6 +238,22 @@ main{
     color: var(--bg-cinza);
     position: relative;
     
+}
+
+#div-form ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+    border-radius: 5px;
+}
+
+#div-form h4{
+    color: var(--bg-cinza);
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(0 , 0, 0, .5);
 }
 
 #form label{
@@ -282,25 +299,16 @@ main{
     height: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #map{
     width: 100%;
     border-radius: 5px;
+    margin: 0;
 }
 
+.endereco, .endereco > p{
+    margin: 0;
+    color: var(--azul-escuro);
+}
 
 
 
