@@ -11,7 +11,13 @@ document.querySelectorAll('.to-form-button').forEach(botoes => {
 
 function showForm(value){
     document.getElementById('form').removeAttribute('hidden')
-    let newEl = document.createElement('h3')
-    newEl.innerText = value
-    document.getElementById('form').prepend(newEl)
+    document.getElementById('form-title').innerText = value
+}
+
+
+
+document.getElementById('bt-exit-form').onclick = ()=>{
+    document.getElementById('lista-botoes').removeAttribute('hidden')
+    document.getElementById('form').setAttribute('hidden', '')
+    document.getElementById('form').rem
 }
