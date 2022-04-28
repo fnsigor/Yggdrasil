@@ -119,7 +119,6 @@ header > img {
     height: 85%;
     left: 14.5rem;
     object-fit: cover;
-    
 }
 
 
@@ -136,7 +135,6 @@ main{
 }
 
 main > h4{
-
     text-align: center;
     color: var(--azul-escuro);
 }
@@ -144,6 +142,7 @@ main > h4{
 /*accordions*/
 .accordion-item{
     margin: 2rem 0;
+    border-radius: 10px !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -154,7 +153,14 @@ main > h4{
 .accordion-button{
     font-weight: 500;
     font-size: 1.2rem !important;
+}
 
+[aria-expanded="false"]{
+    border-radius: 10px !important;
+}
+
+[aria-expanded="true"]{
+    border-radius: 10px 10px 0 0 !important;
 }
 
 
