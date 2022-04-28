@@ -141,7 +141,7 @@ header > img {
 
 /*main*/
 main{
-    padding: 5vh 1vw 5vh 2vw;
+    padding: 7vh 1vw 5vh 2vw;
     
 }
 
@@ -167,23 +167,17 @@ main{
     justify-content: center;
 }
 
-#div-texts p{
-    background-color: var(--cor-link);
-    border-radius: 10px;
-    margin: 0 8rem;
-    padding: .5rem .5rem;
-    margin-top: .5rem;
-    font-size: 1.5rem;
-    color: var(--bg-cinza);
-    font-weight: 400;
-}
-
 
 #text{
-    font-size: 3rem;
+    font-size: 5rem;
     color: var(--bg-cinza);
     font-weight: 500;
     text-shadow: 2px 2px 5px rgba(0 , 0, 0, .5);
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 50px;
+    width: max-content;
+    margin: 0 auto;
+    padding: .5rem 1rem;
     
 }
 
@@ -285,6 +279,8 @@ main{
     display: block;
     border-radius: 5px;
     padding: .1rem .5rem;
+    background-color: var(--bg-cinza);
+    color: var(--azul-escuro);
 }
 
 #bt-exit-form{
