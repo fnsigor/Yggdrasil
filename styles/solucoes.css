@@ -133,8 +133,12 @@ header > img {
 /*main*/
 main{
     padding: 5vh 1vw 5vh 2vw;
-    /* display: flex;
-    justify-content: space-around; */
+}
+
+main > h4{
+
+    text-align: center;
+    color: var(--azul-escuro);
 }
 
 /*accordions*/
@@ -142,6 +146,16 @@ main{
     margin: 2rem 0;
 }
 
+.accordion-button:not(.collapsed) {
+    color: var(--bg-cinza) !important;
+    background-color: var(--cor-link) !important;
+}
+
+.accordion-button{
+    font-weight: 500;
+    font-size: 1.2rem !important;
+
+}
 
 
 
@@ -162,6 +176,31 @@ main{
 
 .mb-3  .row, .col-md-4, .col-md-8{
     height: 100%;
+    
+}
+
+.card-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.card-body{
+    height: 100%;
+    position: relative;
+}
+
+.card-body div:first-child{
+    height: 90%;
+}
+.card-body span:last-child{
+    height: 5%;
+    font-size: .8rem;
+    display: block;
+    text-align: end;
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
 }
 
 
