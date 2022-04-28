@@ -1,4 +1,23 @@
-# Wireframe: 
+<h1> Yggdrasil </h1>
+<h3>Site criado para uma empresa de tecnologia fictícia.</h3> 
+<p>
+  Esse projeto foi baseado no wireframe que criei para a primeira avaliação do programa <a href="https://www.jovemprogramador.com.br/index.php">Jovem Programador</a>.     Também é meu primeiro projeto utilizando Git e Bootstrap.
+</p>
+<hr>
 
+### Tecnologias Utilizadas: 
+  
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+
+### Wireframe no qual o projeto foi baseado: 
 ![Yggdrasil (1)](https://user-images.githubusercontent.com/86209425/164231735-e8250564-f4f1-41d8-b1ad-38deebabf0fb.jpg)
+
+### Atualizações que pretendo implementar:
+
+* Responsividade
+* Mais animações com CSS.
 
