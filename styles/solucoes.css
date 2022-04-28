@@ -137,9 +137,33 @@ main{
     justify-content: space-around; */
 }
 
+/*accordions*/
 .accordion-item{
-    margin: 5rem 0;
+    margin: 2rem 0;
 }
+
+
+
+
+/*cards*/
+.card{
+    height: 20rem;
+    margin: 0 !important;
+    text-align: start;
+    position: relative;
+    font-size: 1rem;
+}
+
+.mb-3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mb-3  .row, .col-md-4, .col-md-8{
+    height: 100%;
+}
+
 
 
 
