@@ -13,9 +13,6 @@
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap)&nbsp;
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
 
-### Wireframe no qual o projeto foi baseado: 
-![Yggdrasil (1)](https://user-images.githubusercontent.com/86209425/164231735-e8250564-f4f1-41d8-b1ad-38deebabf0fb.jpg)
-
 ### Atualizações que pretendo implementar:
 
 * Responsividade
