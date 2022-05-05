@@ -1,5 +1,3 @@
-
-
 document.querySelectorAll(".btn-primary").forEach(button =>{
 
     const buttonId = button.getAttribute('id')
@@ -40,6 +38,7 @@ function hideMainCards () {
     const anotherCards = document.querySelectorAll('#bloco-excalibur, #bloco-fujin, #bloco-sauron, #bloco-atena')
     anotherCards.forEach(card =>{
         card.setAttribute('hidden', '')
+        card.classList.remove('show')
     })
 }
 
@@ -47,6 +46,7 @@ function showMainCards () {
     const anotherCards = document.querySelectorAll('#bloco-excalibur, #bloco-fujin, #bloco-sauron, #bloco-atena')
     anotherCards.forEach(card =>{
         card.removeAttribute('hidden')
+        card.classList.add('show')
     })
 }
 
