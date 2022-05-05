@@ -1,7 +1,7 @@
 <h1> Yggdrasil </h1>
 <h3>Site criado para uma empresa de tecnologia fictícia.</h3> 
 <p>
-  Esse projeto foi baseado no wireframe que criei para a primeira avaliação do programa <a href="https://www.jovemprogramador.com.br/index.php">Jovem Programador</a>.     Também é meu primeiro projeto utilizando Git e Bootstrap.
+  Esse projeto foi baseado no wireframe que criei para a primeira avaliação do programa <a href="https://www.jovemprogramador.com.br/index.php">Jovem Programador</a>.     Também é meu primeiro projeto utilizando Bootstrap.
 </p>
 <hr>
 
